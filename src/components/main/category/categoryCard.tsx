@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface CategoryCardProps {
     category: {
-        Image: string;
+        Image: StaticImageData;
         Name: string;
     }
 }

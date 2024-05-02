@@ -10,10 +10,10 @@ import profileIcon from '@/assets/icons/profile.svg';
 
 export function Header() {
     return (
-        <header className='w-full max-w-[1440px] h-[88px] px-40 py-4 flex items-center justify-between'>
+        <header className='w-full max-w-[1440px] h-[88px] px-40 py-4 flex items-center justify-between bg-white'>
             <Image src={logo} alt='logo' />
             
-            <div className='relative w-[372px] h-14 p-4 bg-[#F5F5F5]'>
+            <div className='relative w-[372px] h-14 bg-[#F5F5F5]'>
                 <Image 
                     src={searchIcon} 
                     alt='icone de pesquisa'
@@ -21,7 +21,7 @@ export function Header() {
                  />
                 <input
                     type="text"
-                    className='w-full bg-[#F5F5F5] outline-none pl-8'
+                    className='w-full h-full bg-[#F5F5F5] outline-none pl-12'
                     placeholder='Search'
                 />
             </div>

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
-import playStation from '@/assets/products/PlayStation.png';   
-import airPodsMax from '@/assets/products/airpods-max.png';
-import appleVisionPro from '@/assets/products/apple-vision-pro.png';
-import macBookPro from '@/assets/products/MacBook-Pro-14.png';
+import playStation from '@/assets/products-banners/PlayStation.png';   
+import airPodsMax from '@/assets/products-banners/airpods-max.png';
+import appleVisionPro from '@/assets/products-banners/apple-vision-pro.png';
+import macBookPro from '@/assets/products-banners/MacBook-Pro-14.png';
 
 export function SmallerBanners() {
     return (
